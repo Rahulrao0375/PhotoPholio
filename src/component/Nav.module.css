@@ -1,0 +1,33 @@
+
+
+.nav{
+    display: flex;
+    align-content: space-around;
+    background-color: #ac0b94;
+    height: 70px;
+    width: auto;
+    box-shadow: 0px 0px 5px 1px rgb(182);
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+   
+    margin-left: 50px;
+}
+
+img{
+    height: 50px;
+   
+    width: fit-content;
+    
+}
+
+.logo span{ 
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+} 

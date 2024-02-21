@@ -1,0 +1,141 @@
+
+.content{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.albumlist{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.add{
+    height: 32px;
+    width: 100px;
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,
+    Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    padding: 5px 10px;
+    background-color: rgba(0,119,255,.1);
+    /* padding-bottom: 5px; */
+}
+
+.cancel{
+    height: 32px;
+    width: 100px;
+    /* border: 2px solid #07f; */
+    border-radius: 5px;
+    /* color: #07f; */
+    cursor: pointer;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,
+    Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    padding: 5px 10px;
+    /* background-color: rgba(0,119,255,.1); */
+
+    background-color: rgba(255,19,0,.1);
+    border: 2px solid #ff1300;
+    color: #ff1300
+}
+
+.albumListAlbums{
+    grid-gap: 30px;
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    grid-template: repeat(1,150px) /repeat(auto-fit,minmax(150px,.5fr));
+    margin-bottom: 100px;
+}
+
+.createdAlbums{
+    align-items: center;
+    border: 5px solid #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    margin-block: 30px;
+    
+    width: 100%;
+}
+
+.createdAlbums:hover{
+    color: white;
+    border: 5px solid #07f;
+    
+}
+
+.createdAlbums img{
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+.createdAlbums:hover span{
+    background-color: #07f;
+    font-size: 20px;
+    font-weight: 700;
+    justify-self: baseline;
+    padding-block: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* .createdAlbums span:hover{
+    cursor: pointer;
+    background-color: #07f;
+} */
+
+
+.createdAlbums span{
+    background-color: #eee;
+    font-size: 20px;
+    font-weight: 700;
+    justify-self: baseline;
+    padding-block: 5px;
+    text-align: center;
+    width: 100%;
+}
+.icons{
+    display: none;
+}
+.createdAlbums:hover .icons{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.icons img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/* .update:hover{
+    height: 55px;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete:hover{
+    height: 55px;
+    transition: all 0.3s ease-in-out;
+} */
