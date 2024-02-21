@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import Navbar from"./component/Navbar";
-//import ImagesList from './Pages/ImagesList';
+
 import ImageForm from './Pages/ImageForm';
 import EditForm from './Pages/EditForm';
 import AlbumForm from "./Pages/AlbumForm"
