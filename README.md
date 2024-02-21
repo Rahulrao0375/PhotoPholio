@@ -8,6 +8,9 @@
 
 <img width="947" alt="image" src="https://github.com/Rahulrao0375/PhotoPholio/assets/114879341/82a7283f-a216-44bc-b5f5-6cb176e23f1a">
 
+<img width="944" alt="image" src="https://github.com/Rahulrao0375/PhotoPholio/assets/114879341/d5500fd3-004f-4e32-a0ac-876cb38400d1">
+
+
 <img width="941" alt="image" src="https://github.com/Rahulrao0375/PhotoPholio/assets/114879341/f5c04c7b-56d7-4361-a699-bede634ec119">
 
 
